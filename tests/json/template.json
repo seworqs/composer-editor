@@ -1,0 +1,53 @@
+{
+  "name": "seworqs/new-project",
+  "description": "Some nice project!",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "J. Doe",
+      "email": "jd@somecompany.com"
+    }
+  ],
+  "homepage": "https://github.com/seworqs/new-project",
+  "keywords": [
+    "example",
+    "json",
+    "composer",
+    "seworqs"
+  ],
+  "support": {
+    "issues": "https://github.com/seworqs/new-project/issues",
+    "source": "https://github.com/seworqs/new-project"
+  },
+  "require": {
+    "php": "^8.1",
+    "somevendor/somepackage": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Seworqs\\New\\Project\\": "src/",
+      "Seworqs\\New\\Project\\Test\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "analyse": [
+      "phpstan",
+      "php-cs-fixer"
+    ]
+  },
+  "bin": [
+    "bin/console"
+  ],
+  "config": {
+    "optimize-autoloader": true
+  },
+  "suggest": {
+    "vendor/extra-features": "This is just a dummy suggestion for demonstration purposes"
+  },
+  "minimum-stability": "stable"
+}

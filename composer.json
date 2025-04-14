@@ -1,0 +1,39 @@
+{
+    "name": "seworqs/composer-editor",
+    "description": "A high-level Composer JSON editor for PHP, offering enum-driven configuration, strict typing, and intuitive syntax for working with composer.json files.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "keywords": [
+        "composer", "composer.json", "json", "php", "dependency management",
+        "autoload", "scripts", "composer helper", "composer editor", "seworqs"
+    ],
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "S.E. Franke",
+            "email": "sven.franke@seworqs.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Seworqs\\Composer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Seworqs\\Composer\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "adbario/php-dot-notation": "^3.3",
+        "seworqs/commons-string": "^1.0",
+        "seworqs/json-editor": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
