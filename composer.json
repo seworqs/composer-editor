@@ -7,7 +7,7 @@
         "composer", "composer.json", "json", "php", "dependency management",
         "autoload", "scripts", "composer helper", "composer editor", "seworqs"
     ],
-    "version": "1.1.0",
+    "version": "1.1.1",
     "authors": [
         {
             "name": "S.E. Franke",
@@ -27,7 +27,7 @@
     "require": {
         "php": "^8.1",
         "adbario/php-dot-notation": "^3.3",
-        "seworqs/commons-string": "^1.0",
+        "seworqs/commons-string": "^2.0",
         "seworqs/json-editor": "^1.0"
     },
     "require-dev": {

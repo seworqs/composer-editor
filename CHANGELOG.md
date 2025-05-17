@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v1.1.1
+
+### Fixed
+- Bug in test.
+
+--- 
+
 ## v1.1.0
 
 ### Updated
